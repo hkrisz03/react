@@ -1,0 +1,55 @@
+/* Központi tartalom */
+main {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Kisebb szélesség */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Számológép stílus */
+.calculator-container {
+  width: 300px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Gombok igazítása */
+button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Számológép gombok rácsos igazítása */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Input mező középre igazítása */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  text-align: right;
+}
